@@ -9,7 +9,7 @@ body {
 
 /* @font-face {
     font-family: 'Notable';
-    src: url(../font/Notable-Regular.ttf);
+    src: url(font/Notable-Regular.ttf);
 } */
 
 /* Nav Design Starts  */
@@ -125,14 +125,13 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.btnGetStarted p{
+.btnGetStarted{
   text-align: center;
   margin-top: 50px
 }
 
 .btnGetStarted a{
-  margin-top: 50px;
-  text-align: center;
+  text-decoration: none;
 }
 
 /* Table Ends */
@@ -214,7 +213,7 @@ tr:nth-child(even) {
 
 .sideBarList{
   margin-left: 30px;
-  list-style-type: upper-roman;
+  list-style-type: disclosure-closed;
 }
 /* Sidebar Ends */
 
