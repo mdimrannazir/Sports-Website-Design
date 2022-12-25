@@ -9,7 +9,7 @@ body {
 
 /* @font-face {
     font-family: 'Notable';
-    src: url(font/Notable-Regular.ttf);
+    src: url(../font/Notable-Regular.ttf);
 } */
 
 /* Nav Design Starts  */
@@ -126,13 +126,14 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-.btnGetStarted {
+.btnGetStarted p {
   text-align: center;
   margin-top: 50px;
 }
 
 .btnGetStarted a {
-  text-decoration: none;
+  margin-top: 50px;
+  text-align: center;
 }
 
 /* Table Ends */
@@ -163,6 +164,10 @@ tr:nth-child(even) {
   font-family: "Notable";
   text-transform: uppercase;
   color: #775d9c;
+}
+
+.individualArticle {
+  margin-top: 15px;
 }
 
 .individualArticle img {
@@ -212,7 +217,7 @@ tr:nth-child(even) {
 
 .sideBarList {
   margin-left: 30px;
-  list-style-type: disclosure-closed;
+  list-style-type: upper-roman;
 }
 /* Sidebar Ends */
 
@@ -231,3 +236,79 @@ footer {
   text-align: center;
 }
 /* Footer Ends */
+
+/* Contact From Starts */
+
+.contactInfo{
+  margin-top: 50px;
+  color: #563d7c;
+}
+
+address{
+  color: aliceblue;
+  padding-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  font-size: larger;
+}
+
+.contactFormConatainer h4{
+  margin-top: 20px;
+}
+
+input[type="text"],
+[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #775d9c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #a085c8;
+}
+
+.contactFormConatainer {
+  border-radius: 5px;
+  background-color: #ddcef2;
+  padding: 20px;
+}
+
+fieldset {
+  padding: 13px;
+  border-radius: 4px;
+  color: #775d9c;
+}
+
+/* Contact Form Sidebar Starts */
+
+.contactPageSideBarTitle{
+  margin-top: 25px;
+}
+
+.containerAside img {
+  height: 271px;
+  }
+
+.containerAside:hover .image {
+opacity: 0.6;
+transition-delay: 0.1s;
+}
+
+/* Contact Form Sidebar Ends */
+
+/* Contact Form Ends */
