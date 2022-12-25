@@ -312,3 +312,136 @@ transition-delay: 0.1s;
 /* Contact Form Sidebar Ends */
 
 /* Contact Form Ends */
+
+
+/* Product Page Stars */
+
+.productPage{
+  width: 100%;
+  display: flex;
+  background-color: #eee;
+  margin-top: 15px;
+}
+
+.productPage h2{
+  font-family: 'Notable';
+}
+
+.tempTitle{
+  font-family: 'Notable';
+}
+
+
+.leftContainer{
+  width: 33%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.articleTwoContainer{
+  /* background-color: blue; */
+  background-color: white;
+  height: 200px;
+  border-radius: 5px;
+ }
+ 
+ .articleFiveContainer{
+  margin-top: 10px;
+  background-color: white;
+   height: 389px;
+   border-radius: 5px;
+ }
+
+.middleContainer{
+  width: 33%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.articleOneContainer{
+  /* background-color: pink; */
+  background-color: white;
+  height: 600px;
+  border-radius: 5px;
+}
+
+.bottomContainer{
+  width: 66%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 5px;
+  float: right;
+}
+
+.articleSixContainer{
+  margin-top: 10px;
+  background-color: white;
+   height: 100px;
+   border-radius: 5px;
+}
+
+.articleTempContainer{
+  width: 33%;
+  
+  height: 100px;
+}
+
+
+.rightContainer{
+  width: 33%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.articleThreeContainer{
+    /* background-color: pink; */
+    background-color: white;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.articleFourContainer{
+  margin-top: 10px;
+  background-color: white;
+   height: 300px;
+   border-radius: 5px;
+}
+
+
+/* Sidebar ProudctPage */
+.sideBarProductPage{
+  margin-left: 25px;
+  padding: 35px;
+  background-color: white;
+  margin-top: 10px;
+  /* margin-right: 10px; */
+  box-shadow: rgb(0 0 0 / 5%) 0 0 0 1px, #f1f3f5 0 5px 20px 0,
+    rgb(0 0 0 / 5%) 0 3px 3px 0;
+  border-radius: 5px;
+}
+
+.sidebarAsideProductPage{
+  display: flex;
+}
+
+.containerAsideProductPage{
+  width: 33%;
+  margin: 5px;
+}
+
+.containerAsideProductPage img {
+  height: 271px;
+  }
+
+.containerAsideProductPage:hover .image {
+opacity: 0.6;
+transition-delay: 0.1s;
+}
+
+/* Sidebar ProductPage Ends */
+
+
+/* Product Page Ends */
