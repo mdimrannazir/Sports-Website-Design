@@ -122,7 +122,7 @@ th {
   padding: 8px;
 }
 
-th{
+th {
   background-color: #563d7c;
   color: white;
 }
@@ -131,13 +131,31 @@ tr:nth-child(odd) {
   background-color: #d4bef4;
 }
 
-.btnGetStarted p {
+.btnGetStarted {
   text-align: center;
-  margin-top: 50px;
 }
 
 .btnGetStarted a {
-  margin-top: 50px;
+  border: 1px solid #563d7c;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  background-color: #563d7c;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.getStarted {
+  margin-top: 30px;
+}
+
+.btnGetStarted a:hover {
+  background-color: #775d9c;
+  border: 1px solid #775d9c;
+}
+
+.btnGetStarted p {
   text-align: center;
 }
 
@@ -244,12 +262,12 @@ footer {
 
 /* Contact From Starts */
 
-.contactInfo{
+.contactInfo {
   margin-top: 50px;
   color: #563d7c;
 }
 
-address{
+address {
   color: aliceblue;
   padding-left: 40px;
   margin-top: 20px;
@@ -257,7 +275,7 @@ address{
   font-size: larger;
 }
 
-.contactFormConatainer h4{
+.contactFormConatainer h4 {
   margin-top: 20px;
 }
 
@@ -301,78 +319,76 @@ fieldset {
 
 /* Contact Form Sidebar Starts */
 
-.contactPageSideBarTitle{
+.contactPageSideBarTitle {
   margin-top: 25px;
 }
 
 .containerAside img {
   height: 271px;
-  }
+}
 
 .containerAside:hover .image {
-opacity: 0.6;
-transition-delay: 0.1s;
+  opacity: 0.6;
+  transition-delay: 0.1s;
 }
 
 /* Contact Form Sidebar Ends */
 
 /* Contact Form Ends */
 
-
 /* Product Page Stars */
 
-.productPage{
+.productPage {
   width: 100%;
   display: flex;
   background-color: #eee;
   margin-top: 15px;
 }
 
-.productPage h2{
-  font-family: 'Notable';
+.productPage h2 {
+  font-family: "Notable";
 }
 
-.tempTitle{
-  font-family: 'Notable';
+.tempTitle {
+  font-family: "Notable";
 }
 
-
-.leftContainer{
+.leftContainer {
   width: 33%;
   border: 1px solid transparent;
   border-radius: 5px;
   margin-left: 5px;
 }
 
-.articleTwoContainer{
+.articleTwoContainer {
   /* background-color: blue; */
   background-color: white;
   height: 200px;
   border-radius: 5px;
- }
- 
- .articleFiveContainer{
+}
+
+.articleFiveContainer {
   margin-top: 10px;
   background-color: white;
-   height: 389px;
-   border-radius: 5px;
- }
+  height: 389px;
+  border-radius: 5px;
+}
 
-.middleContainer{
+.middleContainer {
   width: 33%;
   border: 1px solid transparent;
   border-radius: 5px;
   margin-left: 5px;
 }
 
-.articleOneContainer{
+.articleOneContainer {
   /* background-color: pink; */
   background-color: white;
   height: 600px;
   border-radius: 5px;
 }
 
-.bottomContainer{
+.bottomContainer {
   width: 66%;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -380,44 +396,42 @@ transition-delay: 0.1s;
   float: right;
 }
 
-.articleSixContainer{
+.articleSixContainer {
   margin-top: 10px;
   background-color: white;
-   height: 100px;
-   border-radius: 5px;
+  height: 100px;
+  border-radius: 5px;
 }
 
-.articleTempContainer{
+.articleTempContainer {
   width: 33%;
-  
+
   height: 100px;
 }
 
-
-.rightContainer{
+.rightContainer {
   width: 33%;
   border: 1px solid transparent;
   border-radius: 5px;
   margin-left: 5px;
 }
 
-.articleThreeContainer{
-    /* background-color: pink; */
-    background-color: white;
-    height: 300px;
-    border-radius: 5px;
+.articleThreeContainer {
+  /* background-color: pink; */
+  background-color: white;
+  height: 300px;
+  border-radius: 5px;
 }
 
-.articleFourContainer{
+.articleFourContainer {
   margin-top: 10px;
   background-color: white;
-   height: 300px;
-   border-radius: 5px;
+  height: 300px;
+  border-radius: 5px;
 }
 
-
 /* Sidebar ProudctPage */
-.sideBarProductPage{
+.sideBarProductPage {
   margin-left: 25px;
   padding: 35px;
   background-color: white;
@@ -428,44 +442,68 @@ transition-delay: 0.1s;
   border-radius: 5px;
 }
 
-.sidebarAsideProductPage{
+.sidebarAsideProductPage {
   display: flex;
 }
 
-.containerAsideProductPage{
+.containerAsideProductPage {
   width: 33%;
   margin: 5px;
 }
 
 .containerAsideProductPage img {
   height: 271px;
-  }
+}
 
 .containerAsideProductPage:hover .image {
-opacity: 0.6;
-transition-delay: 0.1s;
+  opacity: 0.6;
+  transition-delay: 0.1s;
 }
 
 /* Sidebar ProductPage Ends */
-
 
 /* Product Page Ends */
 
 /* Pricing Page Starts */
 
-.pricingPageTop{
+.pricingPageTop {
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.tblContainer th{
+.tblContainer th {
   background-color: #563d7c;
   color: white;
 }
 
-
-.tableSpan{
+.tableSpan {
   text-align: center;
 }
 
 /* Pricing Page Ends */
+
+/* Cookie Starts */
+
+.cookieContainer {
+  width: 300px;
+  background-color: #a085c8;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 60%;
+}
+
+.cookieContainer h4 {
+  text-align: center;
+}
+
+.acceptBtn {
+  margin-top: 13px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+/* Cookie Ends */
