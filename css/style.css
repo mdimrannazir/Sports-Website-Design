@@ -122,8 +122,13 @@ th {
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #dddddd;
+th{
+  background-color: #563d7c;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #d4bef4;
 }
 
 .btnGetStarted p {
@@ -445,3 +450,22 @@ transition-delay: 0.1s;
 
 
 /* Product Page Ends */
+
+/* Pricing Page Starts */
+
+.pricingPageTop{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.tblContainer th{
+  background-color: #563d7c;
+  color: white;
+}
+
+
+.tableSpan{
+  text-align: center;
+}
+
+/* Pricing Page Ends */
